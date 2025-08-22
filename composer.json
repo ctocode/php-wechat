@@ -1,0 +1,27 @@
+{
+    "name": "shiyun/php-wechat",
+    "type": "library",
+    "version": "1.0.1",
+    "license": "MIT",
+    "description": "php wechat libs for shiyun",
+    "authors": [
+        {
+            "name": "10yun",
+            "email": "git@10yun.com",
+            "homepage": "https://www.10yun.com/"
+        },
+        {
+            "name": "ctocode",
+            "email": "343196936@qq.com",
+            "homepage": "http://ctocode.com/"
+        }
+    ],
+    "require": {
+        "php": "^8"
+    },
+    "autoload": {
+        "psr-4": {
+            "shiyunWechat\\": "src/"
+        }
+    }
+}
